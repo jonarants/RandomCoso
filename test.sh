@@ -46,7 +46,7 @@ if [ -f "$output_file" ]
 then
     if [ -s "$output_file" ]
     then
-    echo "✅ Backup exitoso:$output_file"    
+    echo "✅ Backup exitoso:$output_file"
     else
     echo "❌ Falla al realizar el backup"
     fi
